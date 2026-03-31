@@ -1,0 +1,20 @@
+# Environment & secrets — NEVER commit these
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+
+# Logs (optional — can track or ignore)
+logs/
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db
